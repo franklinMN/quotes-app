@@ -4,7 +4,7 @@ link - https://codepen.io/ostylowany/pen/vYzPVZL */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap");
 @font-face {
   font-family: "clash_bold_font";
-  src: url(/font/CLASH_BOLD_FONT.OTF);
+  src: url("./font/CLASH_BOLD_FONT.OTF") format("opentype");
 }
 
 :root {
