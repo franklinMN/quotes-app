@@ -137,7 +137,7 @@ body {
 
 .title::after,
 .title::before {
-  content: "“";
+  content: var(--quotes, "“");
   font-size: clamp(1rem, 8vw, 4rem);
   display: inline-block; /* Required for transform to work */
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
